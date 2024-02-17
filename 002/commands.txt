@@ -1,0 +1,4 @@
+ https://hub.docker.com/_/python/tags
+
+docker build -t flask-app .
+docker run -p 8085:8085 flask-app 
